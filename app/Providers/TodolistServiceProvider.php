@@ -3,8 +3,8 @@
 namespace App\Providers;
 
 use Illuminate\Support\ServiceProvider;
-use TodolistService;
-use TodolistServiceImpl;
+use App\Services\TodolistService;
+use App\Services\Impl\TodolistServiceImpl;
 
 class TodolistServiceProvider extends ServiceProvider
 {

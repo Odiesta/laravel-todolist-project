@@ -18,7 +18,7 @@
         </div>
         @endif
         <div class="flex justify-around max-w-full ">
-            <h1 class="text-2xl mt-10">Selamat datang di Todolist Guest</h1>
+            <h1 class="text-2xl mt-10">Selamat datang di Todolist</h1>
             <div class="login-card px-8 py-2 border-2 border-slate-100 mt-10 w-full max-w-xl mx-4">
                 <form action="/login" method="POST">
                     @csrf
